@@ -16,6 +16,6 @@ deploy:
 git: 
   depth : 3
 language : node_js
-node_js : - "10"
+node_js : -"10"
 script : 
   - "yarn build"
