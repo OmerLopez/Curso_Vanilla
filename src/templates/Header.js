@@ -4,7 +4,7 @@ const Header  = () =>{
     <div class="Header-logo">
     <h1>
         <a href="/">
-            100tifi.com
+            100tifi.co
         </a>
     </h1>
     </div>
@@ -14,7 +14,7 @@ const Header  = () =>{
     About
     </a>
 
-    <div>
+    </div>
     </div>
     ` ;
 

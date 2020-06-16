@@ -4,7 +4,7 @@
   "description": "single page application",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --modo production",
+    "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development"
   },
   "keywords": [
@@ -15,6 +15,7 @@
   "devDependencies": {
     "@babel/core": "^7.7.5",
     "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^6.0.2",
     "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
