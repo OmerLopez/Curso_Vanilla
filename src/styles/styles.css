@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap');
 
 body {
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-  color: #3c484e;
+  background: linear-gradient(#216353, #15302C);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 30px;
+  min-height: calc(100vh - 200px);
+  color: #f3f3f3;
   font-family: 'Open Sans', sans-serif;
 }
+
 
 .Header-main {
   display: flex;
@@ -16,7 +21,7 @@ body {
 
 .Header a {
   text-decoration: none;
-  color: #15302C;
+  color: #f3f3f3;
 }
 
 .Main {
@@ -98,6 +103,7 @@ body {
   color: #026C86;
 }
 
+
 @keyframes fade {
   from {
     opacity: 0;
@@ -120,3 +126,12 @@ body {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+
+@media only screen and (max-width: 600px) {
+  .body {
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    width: 100%;
+  }
